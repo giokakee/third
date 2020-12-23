@@ -1,0 +1,107 @@
+/* For desktop: */
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+.flex-container {
+  display: flex;
+}
+
+body {
+  background-color: #eee;
+}
+
+#header {
+  text-align: center;
+}
+
+#header-img {
+  text-align: left;
+  width: 20%;
+  margin-right: 20%;
+}
+
+.nav-link {
+  padding-left: 5%;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  border-radius: auto;
+  background-color: #eee;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #eee;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 100%;
+
+  border-top-color: black;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+}
+
+#form {
+  text-align: center;
+  align-items: center;
+}
+
+#video {
+  display: block;
+  margin-left: 30%;
+  margin-top: 20%;
+}
